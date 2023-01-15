@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from pandas.io.json import json_normalize
 from datetime import datetime
-p_api = "RGAPI-f1e454a7-3441-4f70-9c3c-d573da5f7b54"
+p_api = ""
 url = "https://na1.api.riotgames.com/lol/league/v4/entries/RANKED_SOLO_5x5/PLATINUM/"
 
 #requests all userid from platinum rank into a list
